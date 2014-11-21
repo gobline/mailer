@@ -1,6 +1,6 @@
 ```Mendo\Mailer\Swift_Mailer``` is a subclass of Fabien Potencier's [Swift_Mailer](http://swiftmailer.org/) class.
 It allows to store a default sender in the *Swift_Mailer* instance.
-This avoids specifying the same sender address with ```$message->setFrom()``` for every new message application-wide.
+This avoids specifying (hard-coded) the same sender address with ```$message->setFrom()``` for every new message application-wide.
 
 ## Installation
 
