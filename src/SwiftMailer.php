@@ -14,7 +14,7 @@ namespace Gobline\Mailer;
 /**
  * @author Mathieu Decaffmeyer <mdecaffmeyer@gmail.com>
  */
-class Swift_Mailer extends \Swift_Mailer
+class SwiftMailer extends \Swift_Mailer
 {
     private $defaultFrom;
 
